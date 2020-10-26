@@ -7,8 +7,9 @@ const text = document.querySelector('p#text');
 //Texte si on a trouvé
 const prixFound = "Vous avez trouvé le juste prix !";
 
-//Texte si on a pas trouvé
-const prixNotFound = "Réessayez !";
+//Texte si on a pas trouvé (plus ou moins)
+const prixNotFound = "C'est plus + !";
+const prixNotFound2 = "C'est moins - !";
 
 //Texte si input vide
 const inputSomething = "Il faut rentrer un chiffre";
@@ -56,8 +57,11 @@ const verifyPrix = () => {
         text.innerHTML = inputSomething;
     }
     //sinon
-    else{
+    else if(parseInt(inputValue.value) > random_number){
         //On affiche le message non trouvé
+        text.innerHTML = prixNotFound2;
+    }
+    else if(parseInt(inputValue.value) < random_number){
         text.innerHTML = prixNotFound;
     }
 }
