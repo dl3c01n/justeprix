@@ -58,10 +58,11 @@ const verifyPrix = () => {
     }
     //sinon
     else if(parseInt(inputValue.value) > random_number){
-        //On affiche le message non trouvé
+        //Si c'est supérieur
         text.innerHTML = prixNotFound2;
     }
     else if(parseInt(inputValue.value) < random_number){
+        //Si c'est inférieur
         text.innerHTML = prixNotFound;
     }
 }
