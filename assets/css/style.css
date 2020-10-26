@@ -1,0 +1,31 @@
+body{
+    background-image: url("../img/dollar.jpg");
+}
+
+#jumbotron{
+    background: #2c4a5e;
+    margin-top: 15px;
+}
+
+#title{
+    padding: 15px !important;
+}
+
+#chiffre{
+    padding: 20px;
+}
+
+#text{
+    background-color: white;
+    width: 100%;
+}
+
+.card{
+    width: 15rem;
+    float: right;
+}
+
+.card-body{
+    height: 100px;
+}
+
