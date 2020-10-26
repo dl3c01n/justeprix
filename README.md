@@ -7,9 +7,6 @@ JavaScript Algo.
 # VSCode
 `code .`
 
-# SUBLIME TEXT
-`subl .`
-
 # Facultatif
 
 Live Server (Extensions VSCode)
